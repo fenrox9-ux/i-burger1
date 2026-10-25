@@ -5,6 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/my-burger/',
+base: '/',
   server: { host: '0.0.0.0' },
 })
